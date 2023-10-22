@@ -21,6 +21,9 @@ const About = () => {
               shine. My journey is fueled by innovation, with a deep love for
               coding, an eye for design, and a relentless pursuit of excellence
             </p>
+            <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+              About Me
+            </h1>
             <ul
               role="list"
               className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700"

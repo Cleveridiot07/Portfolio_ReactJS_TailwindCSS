@@ -26,13 +26,13 @@ const Projects = () => {
               {/* ... (Repeat for other list items) */}
             </ul>
             <a
-              href="#"
+              href="https://portfolio-react-js-tailwind-css.vercel.app/"
               className="text-white bg-cyan-800 hover:bg-blue-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900"
             >
               URL
             </a>
             <a
-              href="#"
+              href="https://github.com/Cleveridiot07/Portfolio_ReactJS_TailwindCSS"
               className="text-white mt-10 bg-cyan-800 hover:bg-blue-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900"
             >
               Github Link
@@ -50,13 +50,13 @@ const Projects = () => {
               {/* ... (Repeat for other list items) */}
             </ul>
             <a
-              href="#"
+              href="https://c-iscripter.vercel.app/"
               className="text-white bg-cyan-800 hover:bg-blue-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900"
             >
               URL
             </a>
             <a
-              href="#"
+              href="https://github.com/Cleveridiot07/CIscripter"
               className="text-white mt-10 bg-cyan-800 hover:bg-blue-900 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-purple-900"
             >
               Github Link

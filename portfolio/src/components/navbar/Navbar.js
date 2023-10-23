@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -58,44 +59,54 @@ const Navbar = () => {
                   {/* Dropdown menu content here */}
                   <ul className="text-gray-700">
                     <li>
-                      <a
-                        href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                      >
-                        HOME
-                      </a>
+                      <Link smooth to="#heador">
+                        <a
+                          href="#"
+                          className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                        >
+                          HOME
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                      >
-                        ABOUT ME
-                      </a>
+                      <Link smooth to="#about">
+                        <a
+                          href="#"
+                          className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                        >
+                          ABOUT ME
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                      >
-                        SKILLS
-                      </a>
+                      <Link smooth to="#skills">
+                        <a
+                          href="#"
+                          className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                        >
+                          SKILLS
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                      >
-                        PROJECTS
-                      </a>
+                      <Link smooth to="#projects">
+                        <a
+                          href="#"
+                          className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                        >
+                          PROJECTS
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
-                        className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                      >
-                        CONTACT
-                      </a>
+                      <Link smooth to="#contact">
+                        <a
+                          href="#"
+                          className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 hover:text-whitehover:bg-gray-50 lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                        >
+                          CONTACT
+                        </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -108,44 +119,52 @@ const Navbar = () => {
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                  >
-                    HOME
-                  </a>
+                  <Link smooth to="#heador">
+                    <a
+                      href="#"
+                      className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                    >
+                      HOME
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                  >
-                    ABOUT
-                  </a>
+                  <Link smooth to="#about">
+                    <a
+                      href="#"
+                      className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                    >
+                      ABOUT
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                  >
-                    SKILLS
-                  </a>
+                  <Link smooth to="#skills">
+                    <a
+                      href="#"
+                      className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                    >
+                      SKILLS
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                  >
-                    PROJECTS
-                  </a>
+                  <Link smooth to="#projects">
+                    <a
+                      href="#"
+                      className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
+                    >
+                      PROJECTS
+                    </a>
+                  </Link>
                 </li>
+
                 <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700"
-                  >
-                    CONTACT
-                  </a>
+                  <Link smooth to="#contact">
+                    <p className="block py-2 pl-3 pr-4 text-gray-700 border-b rounded-md hover:bg-gray-900 border-gray-100 hover:text-white lg:hover-bg-transparent lg-border-0 lg-hover-text-purple-700 lg-p-0 dark-text-gray-400 lg-dark-hover-text-white dark-hover-bg-gray-700 dark-hover-text-white lg-dark-hover-bg-transparent dark-border-gray-700">
+                      CONTACT
+                    </p>
+                  </Link>
                 </li>
               </ul>
             </div>

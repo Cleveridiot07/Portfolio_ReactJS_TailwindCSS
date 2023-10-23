@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div>
+    <div id="skills">
       <section className="bg-white dark:bg-gray-100">
         <div className="max-w-screen w-full px-4 pb-8 mx-auto lg:pb-16">
           <h1 className=" text-center w-full bg-gray-100 pt-10 mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-gray-900">
@@ -11,7 +11,7 @@ export default function Skills() {
           <div className="grid grid-cols-2 gap-8 pt-10 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl "
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 id="html"
@@ -36,7 +36,7 @@ export default function Skills() {
             </a>
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
                 id="css"
@@ -53,7 +53,7 @@ export default function Skills() {
             </a>
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl"
                 xmlns="http://www.w3.org/2000/svg"
                 width="2500"
                 height="2500"
@@ -67,7 +67,7 @@ export default function Skills() {
             </a>
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl"
                 xmlns="http://www.w3.org/2000/svg"
                 width="3618.6"
                 height="3618.6"
@@ -106,7 +106,7 @@ export default function Skills() {
             </a>
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl"
                 xmlns="http://www.w3.org/2000/svg"
                 height="1504"
                 preserveAspectRatio="xMidYMid"
@@ -125,7 +125,7 @@ export default function Skills() {
             </a>
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl"
                 xmlns="http://www.w3.org/2000/svg"
                 width="2222"
                 height="2500"
@@ -161,7 +161,7 @@ export default function Skills() {
             </a>
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl"
                 xmlns="http://www.w3.org/2000/svg"
                 width="2500"
                 height="2490"
@@ -203,7 +203,7 @@ export default function Skills() {
             </a>
             <a href="#" className="flex items-center lg:justify-center">
               <svg
-                className="w-[150px] h-[150px]"
+                className="w-[150px] h-[150px] bg-gray-900 p-2 rounded-xl"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
                 id="node-js"

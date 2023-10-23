@@ -3,7 +3,7 @@ import lofo from "./about.png";
 
 const About = () => {
   return (
-    <section className="bg-gray-50 dark:bg-gray-800">
+    <section id="about" className="bg-gray-50 dark:bg-gray-800">
       <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <img
@@ -21,8 +21,8 @@ const About = () => {
               shine. My journey is fueled by innovation, with a deep love for
               coding, an eye for design, and a relentless pursuit of excellence
             </p>
-            <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-              About Me
+            <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+              Education
             </h1>
             <ul
               role="list"
@@ -42,7 +42,8 @@ const About = () => {
                   ></path>
                 </svg>
                 <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                  Dynamic reports and dashboards
+                  B.Tech in Computer Science <br /> KIET Group of Institutions{" "}
+                  <br /> 2022-2026
                 </span>
               </li>
               <li className="flex space-x-3">
@@ -59,31 +60,10 @@ const About = () => {
                   ></path>
                 </svg>
                 <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                  Limitless business automation
-                </span>
-              </li>
-              <li className="flex space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                  Knowledge management
+                  Intermediate <br /> St. Paul's School Rampur
                 </span>
               </li>
             </ul>
-            <p className="font-light lg:text-xl">
-              Deliver great service experiences fast - without the complexity of
-              traditional ITSM solutions.
-            </p>
           </div>
         </div>
       </div>
